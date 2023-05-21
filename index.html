@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Calculator</title>
+  </head>
+  <body>
+    <div class="main">
+      <h1>Calculator</h1>
+      <hr style="border: 2px solid orange; margin-top: -10px; width: 70%" />
+      <div class="inp-container">
+        <input class="result" id="low-input" type="text" />
+      </div>
+      <hr style="border: 1px solid white; width: 90%; margin-bottom: 30px" />
+      <div class="btn-container">
+        <button class="btn" onclick="getNumber('7')">7</button>
+        <button class="btn" onclick="getNumber('8')">8</button>
+        <button class="btn" onclick="getNumber('9')">9</button>
+        <button class="btn" id="optr-btn" onclick="getNumber('/')">/</button>
+      </div>
+      <div class="btn-container">
+        <button class="btn" onclick="getNumber('4')">4</button>
+        <button class="btn" onclick="getNumber('5')">5</button>
+        <button class="btn" onclick="getNumber('6')">6</button>
+        <button class="btn" id="optr-btn" onclick="getNumber('*')">*</button>
+      </div>
+      <div class="btn-container">
+        <button class="btn" onclick="getNumber('1')">1</button>
+        <button class="btn" onclick="getNumber('2')">2</button>
+        <button class="btn" onclick="getNumber('3')">3</button>
+        <button class="btn" id="optr-btn" onclick="getNumber('+')">+</button>
+      </div>
+      <div class="btn-container">
+        <button class="btn" id="optr-btn" onclick="getNumber('.')">.</button>
+        <button class="btn" onclick="getNumber('0')">0</button>
+        <button class="btn" id="equal-btn" onclick="getResult()">=</button>
+        <button class="btn" id="optr-btn" onclick="getNumber('-')">-</button>
+      </div>
+      <div class="clrbtn-container">
+        <button class="clr-btn" onclick="clearInput()">Clear</button>
+      </div>
+    </div>
+  </body>
+
+  <script src="script.js"></script>
+</html>

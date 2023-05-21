@@ -1,0 +1,100 @@
+* {
+    font-family: "Montserrat", sans-serif;
+}
+.main {
+    border: none;
+    margin: 0 auto;
+    width: 400px;
+    border-radius: 40px;
+    background: rgb(42,41,45);
+    background: linear-gradient(125deg, rgba(42,41,45,1) 0%, rgba(30,30,35,1) 37%, rgba(9,11,11,1) 100%);
+}
+
+h1 {
+    font-size: 20px;
+    color: orange;
+    text-align: center;
+    margin-top: 1px;   
+}
+
+.inp-container {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5px;
+}
+
+.result {
+    width: 95%;
+    height: 80px;
+    align-items: center;
+    background-color: transparent;
+    color: white;
+    border: none;
+    font-size: 50px;
+}
+
+.btn {
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid gray;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+}
+
+.btn:hover{
+    background-color: rgb(50, 50, 50);
+}
+
+.clr-btn{
+    width: 80%;
+    height: 60px;
+    border: 2px solid orange;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    font-size: 30px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.clr-btn:hover{
+    background-color: orange;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.clrbtn-container {
+    display: flex;
+    justify-content: center;
+}
+
+#optr-btn {
+    background-color: gray;
+}
+
+#optr-btn:hover{
+    background-color: rgb(107, 107, 107);
+}
+
+#equal-btn {
+    background-color: orange;
+}
+
+#equal-btn:hover{
+    background-color: rgb(201, 132, 4);
+}
+
+
+
+
+
+
